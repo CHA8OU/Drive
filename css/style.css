@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    background: rgb(255, 255, 255);
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed!important;
+    height: 95px;
+    top: 0;
+    width: 100%;
+    z-index: 10; 
+} 
+nav img{
+    width: 149px;
+    height: 70px;
+}
+
+
+a{
+    font-family:  'Poppins' sans-serif;
+    font-weight: bold;
+    transition: 0.4s;
+    margin-left: 0.85cm;
+    color: black!important;
+}
+ul li a:hover{
+    transition:0.4s;
+    color: #0eb18e!important;
+    
+}
+
+.loc button{
+    border-radius:50px ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+}
+.loc button:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);  
+}
+.loc button:focus{
+    outline: none;
+    
+}
+.fas{
+    margin-right: .1cm;
+}
+#salon{
+    color: rgb(0, 0, 0);
+    margin-right: .5cm;
+     font-family: 'Poppins';
+}
+#salon:hover{
+text-decoration: none;
+color:  #b1cbbb;
+transition: 0.4s;
+}
+
+ .aside{
+     width: 62%;
+     padding-top: 0px;
+     margin-top: 95px;
+     margin-right: 38%;
+     margin-bottom: 2cm;
+    
+ }
+ 
+ .aside2{ 
+     float: right;
+     width: 38%; 
+ }
+.aside2 img{
+    position: fixed;
+    width:38% ;
+    height: 100%;
+    z-index: 1;
+    filter: blur(2px);
+}
+.aside img{
+width: 100%;
+}
+.aside p{
+    font-family: 'Poppins';
+}
+#slegon::before{
+   position: fixed!important;
+   font-size: 60px;
+   font-family: 'Dancing Script', cursive;
+   justify-content:center;
+   padding: 20px;
+   margin-top: 3.5cm;
+   z-index: 1;  
+   content: '';
+   animation: aziz 12s infinite ; 
+}
+#slegon-login::before{
+    position: fixed!important;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    justify-content:center;
+    padding: 130px;
+    margin-top: 3.5cm;
+    z-index: 1;  
+    content: 'Inscription';
+    animation: nabil 6s infinite ; 
+ }
+
+@keyframes aziz{    
+ 0%{content: 'Le café est un monde de plaisirs.Tous les goûts sont permis';}
+ 50%{content: 'Les plus belles couleurs du noir! . Laissez la nature vous faire du bien';}
+ 75%{content: 'Un café sensationnel à chaque tasse. ';}
+ 100%{content: ' Un repas, un café, un Freedent . Sans doute le meilleur café du monde';}
+}
+@keyframes nabil{
+    0%{opacity:1 ;}
+    50%{opacity:0 ;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.slegon-drink{
+    position: fixed!important;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    justify-content:center;
+    padding: 90px;
+    margin-top: 2cm;
+    z-index: 1;  
+ }  
+ .slegon-food{ 
+    position: fixed!important;
+    color: blanchedalmond;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    justify-content:center;
+    padding: 110px;
+    margin-top: 2cm;
+    z-index: 1; 
+ }
+
+.aside button{
+    border:2px #6be6c7 solid;
+    background-color: transparent;
+    border-radius: 15px;
+    width: 4cm;
+    float: left;
+    margin-left:.5cm;
+    color: #36d6ae;
+}
+
+ #affiche{
+margin-bottom: -25px;
+height: 380px;
+      }
+     
+.intro{
+    padding: 40px;
+    margin: auto;
+   font-family: 'Poppins';
+}
+.intro button{
+    width: 5cm;
+}
+
+ .card{
+     width: 382px;
+     height: 470px;
+     margin: auto;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+     transition: .2s;
+     
+ }
+ .card:hover {
+    transform: scale(1.06); 
+  }
+ .card img{
+     width: 100%;
+     height: 6cm;
+     
+ }
+ .card h3{
+     margin-top: .5cm;
+     margin-left:.5cm;
+ }
+ .card p{
+    margin-top: .5cm;
+    margin-left:.5cm;
+   
+ }
+ .card input{
+     border:2px #6be6c7 solid;
+     background-color: transparent;
+     border-radius: 15px;
+     width: 4cm;
+     float: left;
+     margin-left:.5cm;
+     color: #36d6ae;
+     font-weight: bold;
+     text-align: center;
+}
+ input:focus{
+    outline: none;
+}
+ button:hover{
+     color: rgb(255, 255, 255);
+     background-color:#36d6ae;
+     transition: 0.4s;
+ }
+ .box a input:hover{
+    color: rgb(255, 255, 255);
+     background-color:#36d6ae;  
+     transition: 0.4s;
+ }
+ .box input:hover{
+    color: rgb(255, 255, 255);
+    background-color:#36d6ae;  
+    transition: 0.4s;
+ }
+ 
+ .box{
+    display: flex;
+    margin: auto;
+    margin-bottom: 2cm;
+ }
+ 
+ .mapouter{
+     text-align:right;
+     margin-top: -2.7cm;
+     float: right;
+     height: 555px;
+     width: 900px;    
+}
+iframe{
+    width:900px; height:555px;
+}
+.gmap_canvas {
+    overflow:hidden;
+}
+.decalage{
+    margin-top: 20px;
+    margin-left: 8cm;
+}
+.search-bar{
+    margin-left: 1.5cm;
+    width: 8cm;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid grey ;
+    margin-top: 4cm;
+}
+.search-bar:hover{
+    border-bottom: 2px solid rgb(3, 0, 189) ;
+}
+.search-bar:focus{
+   outline: none;
+   border-bottom: 2px solid rgb(0, 38, 255) ;
+}
+.icons{
+    justify-content: space-between;
+    margin-left: 10%;  
+}
+.icons i{
+    margin-bottom: 4cm;
+    margin-left: 2.8cm;
+    font-size: 50px;
+    height: 1cm;
+}
+hr{
+    width: 15cm;
+    margin-left: 10%;
+}
+.conditions p{
+    margin-left: 5cm;
+}
+.conditions{
+    margin-top: -2cm;
+}
+footer .cr{
+    justify-content: center;
+    text-decoration: underline;
+    margin-left: 7cm;
+    margin-top: 2cm;
+}
+.log-in{
+    margin-top: 1cm;
+    padding: 50px;
+    margin-left: 3cm;
+}
+.log-in h5{
+    color:#36d6ae ;
+}
+.bar{
+    margin-left: 1.5cm;
+    width: 8cm;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid grey ;
+    margin-top: .75cm;
+}
+.bar:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(0, 38, 255) ;
+ }
+ .bar:hover{
+    border-bottom: 2px solid #36d6ae;
+ }
+.log-in h5{
+    margin-top: .75cm;
+}
+.dn{
+    margin-top: .5cm;
+    margin-left: 1.5cm;
+    margin-bottom: 2cm;
+    border: 1px solid rgba(17, 17, 17, 0.342);
+    border-radius: 15px;
+    width: 4cm;
+    height: 1cm;
+}
+.dn:focus{
+    outline: none;
+}
+.log-in .submit{
+    border:2px #6be6c7 solid;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 4cm;
+    margin-top: -4cm;
+    margin-left:4cm;
+    color: white;
+    font-weight: bold;
+    height: 1cm;
+    background-color: #36d6ae;
+    margin-bottom: 2cm;
+}
+.log-in .submit:hover{
+    background-color: white;
+    color: #36d6ae;
+    transition: 1s;
+}
+.elbox ul li{
+    list-style-type: none;
+}
+.fab:hover{
+    transform: scale(1.1); 
+}
+.bb{
+margin-left: 1cm;
+}
+            /*------se connecter-----*/
+.gauche{
+    margin-top: 0px;
+    width: 30%;
+    height: 530px;
+    background-color:#36d6ae ;
+    float: left;
+}
+.droite{
+    margin-top: -530px;
+    width: 30%;
+    height: 530px;
+    background-color:#36d6ae ;
+    float: right;
+}
+.verif{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 95px;
+    width: 40%;
+    height: 530px;
+    background-color: white;
+}
+.verif .verification{
+    margin-top: -15px;
+     margin-left: -100px;
+}
+.security{
+    margin-left: -2cm;
+}
+.butt1{
+    margin-top: 60px;
+    margin-left: -15px;
+}
+.butt2{  
+ margin-left: -148px;
+}
+.bar1{
+    margin-top: 30px;
+}
+
+            /*****-----drive thru-----****/
+.bg{
+    background-image: url("..//images/drive-thru.jpg");
+    width: 100%;
+    height: 25cm;
+}     
+.commande{
+    color: white;
+    font-family: 'poppins';
+    background-color: black;
+    height: 1.25cm;
+    border-radius: 15px;
+    margin-left: 15cm; 
+    margin-bottom: .5cm;
+    margin-top: 3cm;
+}   
+.commande:hover{
+    background-color: blanchedalmond;
+    color: black;
+}   
+marquee{
+    margin-top: 2.4cm;
+    font-family: 'poppins';
+    font-size: 30px;
+    color:black;
+    text-shadow:0 5px 8px grey ;
+}
+#table-drive{
+    width: 80%;
+    border: 5px solid ;
+    font-family: 'poppins';
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1cm;
+    margin-top: 10cm;
+    background-color: blanchedalmond;
+}
+#table-drive td:hover{
+    background-color:rgb(0, 26, 255);
+    transition: 0.5s;
+   } 
+.cr7{
+    margin-top: .5cm;
+    margin-left: 13cm;
+   text-decoration: underline;
+}
+            /*------tab-------*/
+.tableau{
+    margin-top: 95px;
+    font-family: 'Poppins';
+}
+td{
+ border: 2px solid black;
+ text-align: center;
+}
+.prod{
+ column-width: 430px;
+ font-family:  'poppins';
+ background-color:rgb(119, 238, 212);
+}
+             
+.energie{
+ column-width:155px;
+}
+.toptab{
+ background-color:rgb(119, 238, 212);
+}
+.downtab{
+ background-color:rgb(220, 245, 239);
+}
+tbody:hover{
+ background-color:rgb(119, 238, 212);
+ transition: 0.5s;
+}           
+.titretab{
+ text-align: center;
+ font-family:  'Roboto Slab', serif;
+}
+footer .contact-nutri{
+    margin-left:20%;
+    margin-top: 2cm;
+  }
+  footer .cr-nutri{
+      margin-left: 38%;
+  }
+            
+          /*-----responsive-----*/
+
+@media screen and (max-width: 767px){
+    .aside2{
+       opacity: 0;
+    }
+ .aside{
+       justify-content: center;
+       width: 100%; 
+    }
+    section{
+        width:100%;
+    }
+.box {
+    display: inline-block;
+}
+.aside .card{
+    margin-bottom: 2cm;
+}
+footer .contact{
+  margin-left: -3cm;
+}
+footer .cr{
+    margin-left: 3cm;
+  }
+  .log-in{
+      margin-left: 0%;
+  }
+  .tableau{
+      font-size: 10px;
+  }
+  footer .contact-nutri{
+    margin-left: -3cm;
+  }
+ .map-responsive .decalage{
+     width: 4.7cm;
+     margin-top:4cm;
+ }
+ .nav-item{
+    background-color: white!important;
+    text-align: center;
+    width: 100%!important;
+    border-bottom:  1px solid rgb(0, 0, 0);
+    height: 1.17cm;
+}
+.nav-item button{
+margin-top: 0.2cm;
+}
+.gauche{
+    margin-top: 0px;
+    width: 10%;
+    height: 520px;
+    float: left;
+}
+.droite{
+    margin-top: -530px;
+    width: 10%;
+    height: 753px;
+    float: right;
+}
+.verification{
+margin-left:-146px!important;
+height: 4cm;
+}
+.log-in{
+    margin: 0px;
+}
+.butt1{
+    margin-top: 2cm!important;
+    position: absolute;
+}
+.butt2{
+    margin-top: 3cm!important;
+    margin-left: -5.1cm;
+    margin-bottom: -20px;
+    position: absolute;
+}
+.verif{
+    height: 90%;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+}
+.commande{
+    margin-left: 100px;
+}
+.cr7{
+    margin-left: 90px;
+}
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Travail réalisé par : Chabou Mohamed aziz | Nabil Ben Cheikh Ibrahim  </title>
+        <meta name="description" content="platforme d'un moderne café-resto en ligne"/>
+        <meta name="keywords" content="caffée , drive-thru ,salon de thé, café-resto, drive , delivre , salon "/>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../JS/controle.js"> </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/48c4fd7bdc.js" crossorigin="anonymous"></script>        
+      
+</head>
+   <body>
+    
+       <!-- ***NAV BAR***-->  
+       <header> 
+         <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+           <a class="navbar-brand" href="../‌index.html"><img  src="..//images/LOGO.png"></a>
+                   
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                   </button>
+                       <div class="collapse navbar-collapse"  id="navbarNav" >
+                         <ul class="navbar-nav">
+                             <li class="nav-item">
+                                  <a class="nav-link" href="../‌index.html">ACCEUIL</a>
+                             </li>
+                             <li class="nav-item">
+                                   <a class="nav-link" href="../‌index.html#menu">MENU</a>
+                             </li>
+                             <li class="nav-item">
+                                  <a class="nav-link" href="drive-thru.html">DRIVE THRU</a>
+                             </li>
+                             <li class="nav-item">
+                                  <a class="nav-link" href="nutri+.html">NUTRITION INFO </a>
+                             </li>
+                         </ul>
+                         <ul class="navbar-nav loc">
+                           <li class="nav-item">
+                               <a href="salon.html" id="salon"><i class="fas fa-map-marker-alt"></i>Trouvez un salon</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="drive.html"><button value="">se connecter</button></a>
+                            </li>
+                         <li class="nav-item">
+                             <a href="creer_compte.html"><button value="">Rejoindre maintenant</button></a>
+                           </li>
+                         </ul>
+                       </div>  
+           </nav>   
+    </header>
+ 
+   <div class="aside2">
+    <img src="../images/log.jpg">
+    <h3 id="slegon-login">Inscription</h3>
+  </div>
+ 
+  <section>
+    <h1>Inscription</h1>
+       <article class="log-in">
+         <h5>INFORMATION PERSONNELLES</h5>
+          <fieldset>
+             <form name="f" method="POST" action=""  onsubmit="inscri(document.f.mdp1, document.f.mdp2, document.f.check, document.f.check2, document.f.n1,document.f.n2)">
+               
+                <div>
+                   <input name="n1" type="text" placeholder="Nom" class="bar" required>
+                </div>
+                <div>
+                    <input name="n2" type="text" placeholder="Pénom" class="bar" required>
+                </div>
+
+
+                <h5>ACCOUNT SECURITY</h5>
+     
+                         <div>
+                            <input type="email" placeholder="Courriel" class="bar" required>
+                         </div>
+                         <div>
+                            <input type="password" name="mdp1" placeholder="Mot de passe" class="bar" required>
+                         </div>
+                         <div>
+                           <input type="password" name="mdp2" placeholder="Confirmer mot de passe" class="bar" required>
+                        </div>
+    
+               <h5>DATE D'ANNIVERSAIRE</h5>
+                                  <div>
+                                     
+                                     <input type="date" min="1990-01-01" max="2002-01-01"  class="dn" value="1992-01-01"/ required>
+                                     </div>
+
+                   <div class="elbox">
+                     <ul>
+                          <li>
+                              <input name="check" type="checkbox">J'accepte les termes et les condtions
+                           </li>
+                       <li>
+                              <input name="check2" type="checkbox">Envoyer des notification
+                       </li>
+                     </ul>
+                   </div>             
+    
+                       <div>
+                         <button type="submit" class="submit" >Créer un compte </button>  
+                                         
+                      </div>
+                      
+                     
+             </form>
+
+          </fieldset>
+    </article>
+  </section>
+
+
+
+  
+  <footer>
+   <div class="contact">
+     <hr>
+      <div class="icons">
+       <i class="fab fa-facebook"></i>
+       <i class="fab fa-instagram"></i>
+       <i class="fab fa-twitter"></i>
+     </div> 
+      <div class="conditions">
+       <p>Politique de Confidentialité</p>
+       <p>Conditions d’utilisations</p>
+       <p>Cookies</p>
+     </div>
+ </div>
+ <p class="cr"> &#169;2020 Paris Coffee. Tous droits réservés</p></footer>
+</body>
+</html>

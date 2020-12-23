@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Travail réalisé par : Chabou Mohamed aziz | Nabil Ben Cheikh Ibrahim  </title>
+        <meta name="description" content="platforme d'un moderne café-resto en ligne"/>
+        <meta name="keywords" content="caffée , drive-thru ,salon de thé, café-resto, drive , delivre , salon "/>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../JS/controle.js"> </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/48c4fd7bdc.js" crossorigin="anonymous"></script>        
+      
+</head>
+<body>
+           <!-- ***NAV BAR***-->  
+   <header> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      <a class="navbar-brand" href="../‌index.html"><img  src="..//images/LOGO.png"></a>
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                  <div class="collapse navbar-collapse"  id="navbarNav" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                             <a class="nav-link" href="../‌index.html">ACCEUIL</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="../‌index.html#menu">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="drive-thru.html">DRIVE THRU</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="nutri+.html">NUTRITION INFO </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav loc">
+                      <li class="nav-item">
+                          <a href="salon.html" id="salon"><i class="fas fa-map-marker-alt"></i>Trouvez un salon</a>
+                      </li>
+                      <li class="nav-item">
+                        <button value="">se connecter</button>
+                      </li>
+                      <li class="nav-item">
+                        <a href="creer_compte.html"><button value="">Rejoindre maintenant</button></a>
+                      </li>
+                    </ul>
+                  </div>  
+      </nav>   
+</header>
+
+
+<div class="gauche">
+
+</div>
+
+
+<section class="verif">
+    <article class="log-in">
+        <h5 class="security">SE CONNECTER:</h5>
+            <form name="f2" method="POST" action="#.php"  class="verification" onsubmit="return controleMotdepasse(document.f2.m)">
+                <div>
+                    <input type="email" placeholder="Courriel" class="bar" required>
+                 </div>
+                 <div>
+                    <input name="m" type="password" placeholder="Mot de passe" class="bar bar1" required>
+                 </div>
+                 
+                 <div class="butt1">    
+                  <button type="submit" class="submit" >Se connecter</button>
+                 </div>
+                 
+            </form>
+      <div class="butt2">
+                <a href="creer_compte.html"><button type="" class="submit">Créer un compte </button>   </a>     
+      </div>
+     </article>
+</section>
+
+<div class="droite">
+
+</div>
+
+
+</body>
+</html>
